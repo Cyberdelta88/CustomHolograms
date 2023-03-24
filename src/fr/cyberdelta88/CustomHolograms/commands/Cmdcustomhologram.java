@@ -22,21 +22,21 @@ public class Cmdcustomhologram implements CommandExecutor {
                 as1.setVisible(false);
 
                 if (args.length >= 2) {
-                    ArmorStand as2 = (ArmorStand) p.getWorld().spawnEntity(p.getLocation(), EntityType.ARMOR_STAND);
+                    ArmorStand as2 = (ArmorStand) p.getWorld().spawnEntity(p.getLocation().add(0, -0.25, 0), EntityType.ARMOR_STAND);
                     as2.setCustomName(args[1]);
                     as2.setCustomNameVisible(true);
                     as2.setGravity(false);
                     as2.setVisible(false);
 
                     if (args.length >= 3) {
-                        ArmorStand as3 = (ArmorStand) p.getWorld().spawnEntity(p.getLocation(), EntityType.ARMOR_STAND);
+                        ArmorStand as3 = (ArmorStand) p.getWorld().spawnEntity(p.getLocation().add(0, -0.5, 0), EntityType.ARMOR_STAND);
                         as3.setCustomName(args[2]);
                         as3.setCustomNameVisible(true);
                         as3.setGravity(false);
                         as3.setVisible(false);
 
                         if (args.length >= 4) {
-                            ArmorStand as4 = (ArmorStand) p.getWorld().spawnEntity(p.getLocation(), EntityType.ARMOR_STAND);
+                            ArmorStand as4 = (ArmorStand) p.getWorld().spawnEntity(p.getLocation().add(0, -0.75, 0), EntityType.ARMOR_STAND);
                             as4.setCustomName(args[3]);
                             as4.setCustomNameVisible(true);
                             as4.setGravity(false);
