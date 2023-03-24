@@ -1,0 +1,7 @@
+name: CustomHolograms
+author: Cyberdelta88
+description: caca
+main: fr.cyberdelta88.CustomHolograms.Main
+version: 0.1
+commands:
+  customhologram:
